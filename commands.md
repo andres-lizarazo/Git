@@ -11,3 +11,8 @@ git status
 git diff
 git log --oneline
 git show "id del commit"
+
+git remote add origin https://github.com/andres-lizarazo/mi-proyecto.git
+
+git branch -M main
+git push -u origin main
