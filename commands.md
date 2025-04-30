@@ -9,6 +9,7 @@ git commit -m "Descripcion del commit"
 git log
 git status
 git diff
+git diff --staged
 git log --oneline
 git show "id del commit"
 
@@ -20,3 +21,8 @@ git branch -M main
 git push -u origin main
 
 git remote -v
+
+git stash
+git stash list
+git stash apply
+git stash clear
