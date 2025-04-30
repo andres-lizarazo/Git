@@ -5,6 +5,7 @@ git add -A
 git add --all
 
 git commit -m "Descripcion del commit"
+gir commit --amend -m "cambio de descripcion"
 
 git log
 git status
@@ -28,5 +29,7 @@ git stash apply
 git stash clear
 
 git checkout id_commit
+git checkout main
+git checkout -b develop
 git branch
 git merge
