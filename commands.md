@@ -10,3 +10,4 @@ git log
 git status
 git diff
 git log --oneline
+git show "id del commit"
