@@ -11,7 +11,7 @@ git status
 git diff
 git diff --staged
 git log --oneline
-git show "id del commit"
+git show id_commit
 
 git remote add origin https://github.com/andres-lizarazo/mi-proyecto.git
 git remote set-url origin https://github.com/tuUsuario/nuevo-repo.git
@@ -26,3 +26,7 @@ git stash
 git stash list
 git stash apply
 git stash clear
+
+git checkout id_commit
+git branch
+git merge
