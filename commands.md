@@ -8,6 +8,8 @@ git commit -m "Descripcion del commit"
 gir commit --amend -m "cambio de descripcion"
 
 git log
+git log --graph --oneline --all
+git log --oneline --graph
 git status
 git diff
 git diff --staged
@@ -33,3 +35,4 @@ git checkout main
 git checkout -b develop
 git branch
 git merge
+code
